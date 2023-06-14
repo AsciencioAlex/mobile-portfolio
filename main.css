@@ -10,9 +10,11 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
 ul{
 list-style-type: none;
 }
+
 .navbar{
 height: 44px;
 position: sticky;
@@ -24,6 +26,7 @@ justify-content: space-between;
 align-items: center;
 background-color: #fff;
 }
+
 .navbar__logo{
 width: 76px;
 height: 20px;
