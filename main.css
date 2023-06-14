@@ -56,11 +56,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 .navbar__logo{
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 20px;
     text-decoration: none;
     color: #6070ff;
@@ -109,12 +110,24 @@ body {
 .navigation > main > p{
     color: #394e74;
 }
+
+.navigation__bar{
+    font-family: Poppins;
+    color: #213c41;
+    font-size: 30px;
+}
 .me {
     color: #394e74;
     font-size: 15px;
     font-family: Poppins;
 }
 .navigation > h2 {
+    color: #7f8cff;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.let__connect{
     color: #7f8cff;
     margin-top: 20px;
     font-weight: 500;
@@ -148,18 +161,18 @@ body {
 }
 
 .navigation__work{
-    width: 327px;
-    height: 552px;
+    width: 400px;
+    height: 650px;
     background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    margin-top: 114px;
+    border: 30px solid #dfe1e6;
+    border-radius: 20px;
+    margin-top: 200px;
     box-sizing: border-box;
     display: flex;
     margin: auto;
     flex-direction: column;
-    padding: 16px;
-    gap: 12px;
+    padding:  20px;
+    gap: 5px;
 }
 
 .navigation_work > h2 {
@@ -174,6 +187,7 @@ body {
     display: flex;
 }
 
+
 .portfolio_f_image{
     height: 222px;
     width: 293px;
@@ -183,13 +197,21 @@ body {
 
 .navigation__work > h5{
     margin-top:12px;
-    font-size: 13px;
+    font-size: 35px;
     color: #2b3952;
+    font-family: Poppins;
 
 }
 .feature__container_side > p{
     margin-right: 13px;
     text-align: left;
+    font-family: Poppins, sans-serif;
+    
+}
+.navigation__paragraph{
+    font-family: Poppins;
+    color: #616161;
+    font-size: 15px;
 }
 .feature__container_side > img{
     width: 7px;
@@ -243,6 +265,7 @@ body {
     flex-direction: row;
     padding: 12px;
     gap: 10px;
+    margin-top: 10px;
     background-color: white;
     border: 1px solid #6070ff;
     width: 126px;
@@ -250,6 +273,9 @@ body {
     position: absolute;
     border-radius: 8px;
     cursor: pointer;
+    color: #4657f5;
+    font-size: 16px;
+    
 }
 
 .contact-me {
@@ -356,78 +382,6 @@ body {
     justify-content: center;
     color: #fff;
   }
-
-  .navigation__work_multi{
-    display: flex;
-    width: 320px;
-    height: 550px;
-    gap: 11px;
-    flex-direction: column;
-    background-color: #fcf5f5;
-    border-radius: 16px;
-    border: 1px solid #e7ebf5;
-    margin-top: 90px;
-    padding: 15px;
-    box-sizing: border-box;
-    
-  }
-
-  .navigation__work_multi > h5 { 
-    display: flex;
-    width: 295px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 40px;
-    color: #1c345e;
-  }
-
-  .navigation__work_second{
-    display: flex;
-    border: 1px solid #20365c;
-    width: 325px;
-    height: 550px;
-    gap: 12px;
-    padding: 15px;
-    box-sizing: border-box;
-    flex-direction: column;
-    border-radius: 15px;
-    margin-top: 886px;
-    color: #213b68;
-  }
-
-  .navigation__work_second > h5 {
-     display: flex;
-     font-style: Poppins, sans-serif;
-     font-weight: 650;
-     font-size: 30px;
-     width: 293px;
-     height: 36px;
-  }
-
-  .navigation__work_multi_second {
-    display: flex;
-    border: 1px solid #20365c;
-    width: 325px;
-    height: 550px;
-    gap: 12px;
-    padding: 15px;
-    box-sizing: border-box;
-    flex-direction: column;
-    border-radius: 15px;
-    margin-top: 886px;
-    color: #213b68;
-    }
-
-    .navigation__work_multi_second > h5{
-    display: flex;
-    font-style: Poppins, sans-serif;
-    font-weight: 650;
-    font-size: 30px;
-    width: 293px;
-    height: 36px;
-    }
-
     .myself{
         background-size: cover;
         width: 100%;
@@ -480,7 +434,7 @@ body {
         height: 40px;
     }
 
-    .resume__javascript {
+    .resume__coding {
         display: flex;
         margin-top: 36px;
         background-color: #f6f6ff;
@@ -490,7 +444,7 @@ body {
         border-radius: 8px;
 
     }
-    .resume__javascript img{
+    .resume__coding img{
         display: flex;
         margin-top: 8px;
         margin-left: 10px;
@@ -498,13 +452,20 @@ body {
         height: 38px;
     }
 
-    .resume__html{
-
+    .resume__coding > p {
+        float: left;
+        color: #213c41;
+        display: flex;
+        margin-left: 30px;
+        margin-top: 20px;
     }
 
-    .resume__css{
+    .framework__container{
+        display: flex;
+        margin-top: 70px;
+        color: #172b4d;
+        height: 20px;
+        width: 10px;
+        font-weight: 600;
 
     }
-   .resume_frameworks{
-
- }
