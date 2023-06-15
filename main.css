@@ -73,7 +73,8 @@ ul {
   flex-direction: column;
   padding: 24px;
   background-color: #fff;
-  border-bottom-left-radius: 80px;  
+  border-bottom-left-radius: 80px;
+  
 }
 
 .navigation > main {
