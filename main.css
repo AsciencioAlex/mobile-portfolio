@@ -17,7 +17,7 @@ ul {
 }
 
 .navbar {
-  height: 44px;
+  height: 64px;
   position: sticky;
   padding-left: 12px;
   padding-right: 12px;
@@ -35,7 +35,7 @@ ul {
 }
 
 .navbar__logo {
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 900;
   line-height: 20px;
@@ -50,9 +50,9 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3px;
+  gap: 2px;
   cursor: pointer;
-  margin-left: 260px;
+  margin-left: 200px;
 }
 
 .__label__list_container {
@@ -74,10 +74,11 @@ ul {
   padding: 24px;
   background-color: #fff;
   border-bottom-left-radius: 80px;
+  
 }
 
 .navigation > main {
-  margin-top: 12px;
+  margin-top: 30px;
 }
 
 .resume__coding > p {
@@ -120,6 +121,7 @@ ul {
   font-family: Poppins, sans-serif;
   color: #213c41;
   font-size: 30px;
+  margin-top: 60px;
 }
 
 .me {
@@ -133,7 +135,9 @@ ul {
   font-size: 16px;
   margin-top: 126px;
   line-height: 50px;
-  color: #1c3764;
+  color: #7f8cff;
+  margin-top: 40px;
+  font-family: Poppins, sans-serif;
 }
 
 .let__connect {
