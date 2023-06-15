@@ -5,6 +5,7 @@ body {
   font-family: var(--font);
   background-color: #e5e5e5;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,39 +28,12 @@ ul {
   background-color: #fff;
 }
 
-.navbar__logo {
-  width: 76px;
-  height: 20px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070FF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;  
-}
-.navbar {
-  position: sticky;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  width: 100%;
-  background-color: #fff;
-}
 .navbar__header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .navbar__logo {
   font-size: 18px;
   font-style: normal;
@@ -67,7 +41,9 @@ ul {
   line-height: 20px;
   text-decoration: none;
   color: #6070ff;
+  font-family: Poppins, sans-serif;
 }
+
 .navbar__label_container {
   width: 24px;
   height: 24px;
@@ -78,6 +54,7 @@ ul {
   cursor: pointer;
   margin-left: 260px;
 }
+
 .__label__list_container {
   display: inline-block;
   width: 18px;
@@ -104,6 +81,7 @@ ul {
   color: #1c3764;
   line-height: 50px;
 }
+
 .navigation > main {
   margin-top: 12px;
 }
@@ -113,21 +91,25 @@ ul {
 }
 
 .navigation__bar {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   color: #213c41;
   font-size: 30px;
 }
+
 .me {
   color: #394e74;
-  font-size: 15px;
-  font-family: Poppins;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
 }
+
 .navigation > h2 {
   color: #7f8cff;
-  margin-top: 20px;
   font-weight: 500;
   font-size: 16px;
+  margin-top: 126px;
+  line-height: 50px;
 }
+
 .let__connect {
   color: #7f8cff;
   margin-top: 20px;
@@ -181,7 +163,7 @@ ul {
   font-size: 32px;
   line-height: 44px;
   color: #1c355f;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   width: 293px;
   height: 34px;
@@ -199,29 +181,32 @@ ul {
   margin-top: 12px;
   font: 35px;
   color: #2b3952;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
 }
 
 .feature__container_side > p {
   margin-right: 13px;
   text-align: left;
-  font-family: Poppins sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .navigation__paragraph {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   color: #616161;
   font-size: 15px;
 }
+
 .feature__container_side > img {
   width: 7px;
   height: 7px;
 }
+
 .category__portfolio {
   font-weight: 700;
   font-size: 14px;
   color: #344563;
 }
+
 .category__port {
   margin-left: 12px;
   color: #737d8f;
