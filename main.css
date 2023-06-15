@@ -102,8 +102,14 @@ ul {
 
 .button p {
   font-weight: 600;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   color: #3b6eee;
+}
+
+.feature__container_side > p {
+  margin-right: 13px;
+  text-align: left;
+  font-family: Poppins, sans-serif;
 }
 
 .navigation > main > p {
@@ -203,12 +209,6 @@ ul {
   font-family: Poppins, sans-serif;
 }
 
-.feature__container_side > p {
-  margin-right: 13px;
-  text-align: left;
-  font-family: Poppins, sans-serif;
-}
-
 .navigation__paragraph {
   font-family: Poppins, sans-serif;
   color: #616161;
@@ -289,8 +289,6 @@ ul {
   color: #1f3863;
   margin-top: 114px;
 }
-
-
 
 .myself > text > p {
   width: 100%;
