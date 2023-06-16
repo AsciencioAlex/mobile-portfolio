@@ -291,6 +291,11 @@ ul {
   cursor: pointer;
   color: #4657f5;
   font-size: 16px;
+  width: 80px;
+  height: 50px;
+  background-color: rgba(235, 24, 24, 0.945);
+  animation-name: portfolio;
+  animation-duration: 10s;
 }
 
 .myself {
@@ -450,28 +455,10 @@ textarea {
   color: #fff;
 }
 
-.project__button {
-  width: 80px;
-  height: 50px;
-  background-color: rgba(235, 24, 24, 0.945);
-  animation-name: portfolio;
-  animation-duration: 10s;
-}
-
 @keyframes portfolio {
-  0%   {
-    background-color: rgb(233, 23, 23);
-  }
-  25%  {
-    background-color: rgb(233, 233, 15);
-  }
-  50%  {
-    background-color: rgb(11, 11, 235);
-  }
-  75%  {
-    background-color: rgb(235, 11, 216);
-  }
-  100% {
-    background-color: rgb(7, 151, 7);
-  }
+  0%   {background-color: rgb(233, 23, 23);}
+  25%  {background-color: rgb(233, 233, 15);}
+  50%  {background-color: rgb(11, 11, 235);}
+  75%  {background-color: rgb(235, 11, 216);}
+  100% {background-color: rgb(7, 151, 7);}
 }
