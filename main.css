@@ -74,7 +74,6 @@ ul {
   padding: 24px;
   background-color: #fff;
   border-bottom-left-radius: 80px;
-  
 }
 
 .navigation > main {
@@ -111,6 +110,33 @@ ul {
   margin-right: 13px;
   text-align: left;
   font-family: Poppins, sans-serif;
+}
+
+.contact__container_me p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.contact__button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #043fe2;
+  padding-top: 20px;
 }
 
 .navigation > main > p {
@@ -293,6 +319,17 @@ ul {
   margin-top: 114px;
 }
 
+.contact__container_me h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 103px;
+  text-align: center;
+}
+
 .myself > text > p {
   width: 100%;
   height: 145px;
@@ -354,29 +391,6 @@ ul {
   border-top-left-radius: 80px;
 }
 
-.contact__container_me h2 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-  margin-top: 103px;
-  text-align: center;
-}
-
-.contact__container_me p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
-  text-align: center;
-  margin-top: 12px;
-  margin-bottom: 32px;
-}
-
 .contact__name {
   position: absolute;
   background: #fff;
@@ -418,21 +432,6 @@ textarea {
   cursor: pointer;
   margin-top: 22px;
   margin-left: 24px;
-}
-
-.contact__button p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 24px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  color: #043fe2;
-  padding-top: 20px;
 }
 
 .contact__info {
