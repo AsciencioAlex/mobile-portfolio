@@ -74,8 +74,7 @@ ul {
   padding: 24px;
   background-color: #fff;
   border-bottom-left-radius: 80px;
-
-
+  
 }
 
 .navigation > main {
@@ -347,7 +346,7 @@ ul {
   font-weight: 600;
 }
 
-.contact-me {
+.contact__container_me {
   position: absolute;
   width: cover;
   left: 1px;
@@ -355,7 +354,7 @@ ul {
   border-top-left-radius: 80px;
 }
 
-.contact-me h2 {
+.contact__container_me h2 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -366,7 +365,7 @@ ul {
   text-align: center;
 }
 
-.contact-me p {
+.contact__container_me p {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -378,7 +377,7 @@ ul {
   margin-bottom: 32px;
 }
 
-.loremipsum {
+.contact__name {
   position: absolute;
   background: #fff;
 }
@@ -405,7 +404,7 @@ textarea {
   margin-left: 24px;
 }
 
-.el-botones {
+.contact__button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -421,22 +420,22 @@ textarea {
   margin-left: 24px;
 }
 
-.el-botones p {
+.contact__button p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 120px;
   height: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
-  color: #396df2;
+  color: #043fe2;
   padding-top: 20px;
 }
 
-.background {
+.contact__info {
   background-image: url(assets/contact-form.png);
   padding: 90px 24px;
   border-top-left-radius: 90px;
@@ -451,4 +450,3 @@ textarea {
   justify-content: center;
   color: #fff;
 }
-
